@@ -11,7 +11,7 @@ Before starting, make sure you have the following ready:
 
 1. ✅ **Gemini CLI Installed**
    - You must have the Gemini CLI installed on your machine.
-   - If not installed, you can get it from [Gemini CLI Docs](https://github.com/google-gemini/cli) or follow Google’s setup guide.
+   - If not installed, you can get it from [Gemini CLI Tutorial]([https://github.com/google-gemini/cli](https://medium.com/google-cloud/gemini-cli-tutorial-series-77da7d494718)) or follow Google’s setup guide.
 
 2. ✅ **A GitHub Account**
    - You’ll need access to your GitHub account where you’ll generate a personal access token.
