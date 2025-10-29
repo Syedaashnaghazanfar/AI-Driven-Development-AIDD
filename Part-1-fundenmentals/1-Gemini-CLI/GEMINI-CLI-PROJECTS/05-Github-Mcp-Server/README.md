@@ -27,26 +27,23 @@ This token will authorize Gemini CLI to connect securely with your GitHub.
 
 ### 🔧 Instructions:
 1. Go to your GitHub account and click on your **profile picture → Settings**.
-2. Inside the URL bar, navigate manually to:
+2. 
+3. Inside the URL bar, navigate manually to:
 https://github.com/settings/personal-access-tokens
 
-markdown
-Copy code
-3. Now, click **“Generate new token (classic)”** or navigate to:
+4. Now, click **“Generate new token (classic)”** or navigate to:
 https://github.com/settings/personal-access-tokens/new
 
-markdown
-Copy code
-4. Under **Token Description**, name it something like:
+5. Under **Token Description**, name it something like:
 Gemini MCP Access
 
-yaml
-Copy code
-5. Under **Select Scopes**, check:
+6. Under **Select Scopes**, check:
 - ✅ `repo` (for repository access)
 - ✅ `read:user` (for reading user details)
-6. Click **Generate Token**.
-7. **Copy** the token shown — and **store it safely**.
+  
+7. Click **Generate Token**.
+   
+8. **Copy** the token shown — and **store it safely**.
 ⚠️ You won’t be able to view it again later, so keep it secure!
 
 ---
