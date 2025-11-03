@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FreshWhirl Smoothies</title>
+        <!-- Google Fonts: Poppins -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- GSAP CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <h1 class="logo"><a href="#">FreshWhirl</a></h1>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="smoothie-main-content">
+            <section class="hero-section">
+                <div class="hero-text-container">
+                    <h2 class="hero-title">Blend Happiness Daily</h2>
+                    <p class="hero-tagline">
+                        Experience the freshest and most delicious smoothies
+                        made with love.
+                    </p>
+                </div>
+            </section>
+
+            <section class="smoothie-builder-section">
+                <div class="smoothie-builder-container">
+                    <div class="cup-display-area">
+                        <img
+                            id="smoothie-cup"
+                            class="smoothie-cup"
+                            src="public/images/empty_cup.png"
+                            alt="Empty Smoothie Cup"
+                        />
+                        <div id="flavor-label" class="flavor-label"></div>
+                    </div>
+
+                    <aside class="flavor-selection-sidebar">
+                        <button
+                            class="flavor-icon-btn"
+                            data-flavor="strawberry"
+                            aria-label="Strawberry Smoothie"
+                        >
+                            <img
+                                src="public/icons/strawberry.png"
+                                alt="Strawberry Icon"
+                            />
+                        </button>
+                        <button
+                            class="flavor-icon-btn"
+                            data-flavor="blueberry"
+                            aria-label="Blueberry Smoothie"
+                        >
+                            <img
+                                src="public/icons/blueberry.png"
+                                alt="Blueberry Icon"
+                            />
+                        </button>
+                        <button
+                            class="flavor-icon-btn"
+                            data-flavor="mango"
+                            aria-label="Mango Smoothie"
+                        >
+                            <img
+                                src="public/icons/mango.png"
+                                alt="Mango Icon"
+                            />
+                        </button>
+                        <button
+                            class="flavor-icon-btn"
+                            data-flavor="banana"
+                            aria-label="Banana Smoothie"
+                        >
+                            <img
+                                src="public/icons/banana.png"
+                                alt="Banana Icon"
+                            />
+                        </button>
+                        <button
+                            id="reset-btn"
+                            class="reset-btn"
+                            aria-label="Reset Smoothie Builder"
+                        >
+                            <img
+                                src="public/icons/delete.png"
+                                alt="Reset Icon"
+                            />
+                        </button>
+                    </aside>
+
+                    <div class="smoothie-controls">
+                        <div class="price-display">
+                            <p class="price-label">Price:</p>
+                            <p id="smoothie-price" class="price-value">$0.00</p>
+                        </div>
+                        <button id="add-to-cart-btn" class="add-to-cart-btn">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <p>&copy; 2025 FreshWhirl Smoothies. All rights reserved.</p>
+        </footer>
+
+        <!-- Main JavaScript -->
+        <script src="js/app.js"></script>
+    </body>
+</html>
